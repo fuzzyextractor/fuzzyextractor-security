@@ -5,6 +5,6 @@
 
 ``leech.hpp`` is a c++ implemetation of Leech lattice decoding
 
-``security-mpi.cpp`` computes the distance between vectors, write in MPI, because we conduct the experiments on a distrubuted high performance network
+``security-mpi.cpp`` computes the distance between vectors.
 
-``security.ipynb`` is a jupter notbook file to analyze the security.
+``security.ipynb`` is a jupter notebook file to analyze the security.
