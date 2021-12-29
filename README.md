@@ -1,10 +1,10 @@
 # fuzzyextractor-security
 
 
-``facenet.py`` is to generate feature vectors
+``insight.py`` is to generate feature vectors
 
 ``leech.hpp`` is a c++ implemetation of Leech lattice decoding
 
-``security-mpi.cpp`` computes the distance between vectors.
+``entropy-leech.cpp`` computes the entropy for various threshold.
 
-``security.ipynb`` is a jupter notebook file to analyze the security.
+``curve.ipynb`` is a jupter notebook file to fit the curve and analyze the security.
