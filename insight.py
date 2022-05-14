@@ -19,14 +19,14 @@ app.prepare(ctx_id=args.ctx, det_size=(args.det_size,args.det_size))
 
 name_list=[]
 cnt=0
-for f in os.listdir('../lfw'):
+for f in os.listdir('./feret'):
     if f[-3:]=='jpg':
         name_list.append(f)
 
-fout=open('vec_insight_lfw','w')
+fout=open('vec_insight_feret','w')
 
 for name in name_list:
-    img = cv2.imread('../lfw/'+name)
+    img = cv2.imread('./feret/'+name)
     faces = app.get(img)
     if len(faces)!=1:
         continue
