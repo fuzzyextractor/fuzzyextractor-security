@@ -7,4 +7,4 @@
 
 ``entropy-leech.cpp`` computes the entropy for various threshold.
 
-``curve.ipynb`` is a jupter notebook file to fit the curve and analyze the security.
+``farfrr.ipynb`` is a jupter notebook file to fit the curve and analyze the security.
